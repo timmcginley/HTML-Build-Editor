@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<link rel='stylesheet' href='../css/html-build.css'></link>
+		<script src='../js/html-build.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js'></script>
+	</head>
+	<body onload="main()">
+		<model->
+			<project- name="Duplex Apartment">
+				<site- lat="(41, 52, 27, 840000)" long="(-87, -38, -21, -839999)" elev="-0.0">
+					<building->
+						<floor- class="floor_upper" name='Roof'  level='2' elev="6.00000000000039" >Roof<span class="floor_stats">6.0</span> </floor->
+						<floor- class="floor_upper" name='Level 2'  level='1' elev="3.100000000000378" >Level 2<span class="floor_stats">3.1</span> </floor->
+						<floor- class="floor_ground" name='Level 1'  level='0' elev="0.0" >Level 1<span class="floor_stats">0.0</span> </floor->
+						<ground-></ground->
+						<floor- class="floor_lower" name='T/FDN'  level='-1' elev="-1.25" >T/FDN<span class="floor_stats">-1.25</span> </floor->
+					</building->
+				</site->
+			</project->
+		</model->
+		<view->
+			<plan-></plan->
+			<props-></props->
+		</view->
+	</body>
+</html>
+
+
+
+<html>
+	<head> <!--- we want this to contain project information --->
+		<title>A building / Project Name</title> <!--- name of the project --->
+		<link rel="stylesheet" href="../css/html-build.css">
+				<!--- this could contain links to the files that contain the the styling / materials / properties and classes for the project -->		
+		</link> 
+		<link rel="stylesheet" href="css/floors.css" />
+		<script> <!-- this could contain lots of cool stuff!!! ---></script>
+	</head> <!--- end of the project information -->
+	<body>
+			<!--- each entitie (tag) needs a dash it to be a proper custom HTML entity -->
+			<project->
+			This is the project. It shows an example of using custom HTML entities to represent (ifc) building entities with minmal CSS to define the custom entities in css/html-build.css
+				<site->
+					<building->
+						<core->
+							<floor- class="resi">9 Floor</floor->
+							<floor- class="resi">8 Floor</floor->
+							<floor- class="office">7 Floor</floor->
+							<floor- class="office">6 Floor</floor->
+							<floor- class="office">5 Floor</floor->
+							<floor- class="MEP">4 Floor</floor->
+							<floor->3 Floor</floor->
+							<floor->2 Floor</floor->
+							<floor->1 Floor</floor->
+							<floor->0 Floor</floor->
+						</core->
+					</building->
+					<foundation->-1 Floor</foundation->
+				</site->
+			</project->
+		
+	</body>
+<html>

@@ -4,7 +4,7 @@
 /* model*/
 model- {
 	display:block;
-	background-color:#ffa;
+	background-color:#eee;
 	width:50%;
 	border:none;
 	color:#1b1b1b;
@@ -16,7 +16,7 @@ model- {
 
 view- {
 	display:block;
-	background-color:#ffc;
+	background-color:#ddd;
 	width:50%;
 	border:none;
 	color:#1b1b1b;
@@ -34,7 +34,7 @@ project- {
 	padding:5px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:12px;
-	background-color:#ccc;
+	background-color:#fff;
 	width:100%;
 	border:none;
 	color:#1b1b1b;
@@ -65,7 +65,7 @@ core- {
 /*ifcBuilding */
 building- {
 	display:block;
-	background-color:#ddd;
+	background-color:white;
 	padding:0px;
 	margin:5px;
 	border-color: #000;
@@ -96,7 +96,7 @@ segment- {
 /* ifcBuildingStorey */
 floor- {
 	display:block;
-	background-color:#fff;
+	background-color:white;
 	position:relative;
 	padding:2px;
 	padding-left:10px;
@@ -104,26 +104,10 @@ floor- {
 	margin:auto;
 	margin-top:2px;
 	color:#1b1b1b;
-	border-bottom: 4px solid black;
+	border-top: 4px solid black;
 }
 
 /* VIEW DEFINITIONS...
-
-/* plan - this contains a plan of the currently selected floor*/
-plan- {
-	display:block;
-	background-color:#ddd;
-	margin: auto;
-	padding:0px;
-	border-color: #000;
-	width:90%;
-	color:#1b1b1b;
-	/*border-top: 4px solid black;*/
-	min-height: 20px;
-	overflow: hidden;
-	margin:auto;
-	margin-top:5px;
-}
 
 /* plan - this contains a plan of the currently selected floor*/
 .plan {
@@ -144,10 +128,12 @@ plan- {
 /* properties - this contains the calculated properties*/
 props- {
 	display:block;
-	background-color:#ddd;
+	background-color:white;
 	margin: auto;
-	padding:0px;
+	padding:10px;
 	border-color: #000;
+	border-radius: 5px;
+	font-family:sans-serif;
 	width:90%;
 	color:#1b1b1b;
 	/*border-top: 4px solid black;*/
@@ -181,7 +167,6 @@ ground-{
 	padding-left:10px;
 	width:450px;
 	border-top: 6px solid black;
-	
 }
 
 /* STYLING */
@@ -205,14 +190,15 @@ ground-{
 	border-bottom: none;
 }
 .floor_lower {
-	background-color: #ddd;
-	border-left: 2px solid brown;
-	border-right: 2px solid brown;
-	
+	background-color: #EEE;
+	border-top: 4px solid black;
+	border-bottom:0px;
+	width:265px;
+	margin-left:-5px;
+	margin-right:-5px;
 }
 
 .floor_stats {
-	
 	float:right;
 	padding:0px;
 	font-style: italic;
@@ -220,5 +206,4 @@ ground-{
 	background-color:#fff;
 	margin-right:10px;
 	margin-top:0px;
-	
 }

@@ -17,8 +17,8 @@ function main() {
 	console.log(num_floors);
 	
 	// add data to the properties box
-	$('props-').prepend('number of floors is '+num_floors);
-	$('props-').prepend('site elevation is '+$('site-').attr('elev')+'<br>');
+	$('props-').prepend('Number of floors is '+num_floors);
+	$('props-').prepend('Site elevation is '+$('site-').attr('elev')+'<br>');
 	
 	// load the plan so we can edit it
 	plan('happy');

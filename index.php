@@ -28,6 +28,11 @@
                     <option value="duplex">duplex</option>
                     <option value="duplex2">duplex2</option>
                     <option value="duplex3">duplex3</option>
+                    <option value="01">01</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="09">09</option>
+                    <option value="11">11</option>
                 </select><br>
             </div>
         </div><br>
